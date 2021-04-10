@@ -1,3 +1,53 @@
+:root {
+  --main-text-color: #757575;
+  --main-title-color: #212121;
+  --alt-title-color: #fff;
+  --accent-color: #2196f3;
+  --bg-color: #2f303a;
+  --second-bg-color: #f5f4fa;
+
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+.address {
+  font-style: inherit;
+}
+.title {
+  font-family: var(--main-font);
+  text-align: center;
+}
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /*color: #ffffff;*/
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
